@@ -38,6 +38,7 @@ h1 {
 #content {
   display: flex;
   align-items: center;
+  gap: 64px;
   /* border: #4b4e6d solid; */
 }
 button {
@@ -47,9 +48,14 @@ button {
   padding: 8px;
   font-size: 24px;
   height: fit-content;
-  margin-right: 64px;
+}
+button:hover {
+  border: #4b4e6d solid 8px;
 }
 
+button:active {
+  border: #4b4e6d solid;
+}
 .options {
   display: flex;
   flex-direction: column;
