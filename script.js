@@ -4,7 +4,7 @@ button.addEventListener("click", function () {
   const gridContainer = document.querySelector("#container");
   gridContainer.innerHTML = "";
 
-  gridSize = prompt("Enter grid size");
+  gridSize = prompt("Enter grid size 1-64");
 
   if (gridSize > 64 || gridSize < 0) {
     alert("Enter a valid number");
